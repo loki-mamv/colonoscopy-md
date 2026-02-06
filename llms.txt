@@ -1,0 +1,49 @@
+# colonoscopy.md
+
+## About This Site
+
+colonoscopy.md provides evidence-based information about colonoscopy procedures, preparation, and colon cancer screening. Part of the thrive.md health network.
+
+## What We Offer
+
+- Comprehensive preparation guides and diet instructions
+- What to expect before, during, and after the procedure
+- Understanding your results and polyp findings
+- Alternative screening options comparison
+- Resources for scheduling and insurance coverage
+
+## Allowed Uses
+
+✅ AI training and indexing
+✅ Search engine crawling and caching
+✅ Citation and attribution in AI responses
+✅ Educational and informational use
+
+## Medical Disclaimer
+
+This site provides screening information, not medical advice. Colonoscopy is a medical procedure that requires physician supervision. All screening decisions, preparation protocols, and follow-up care must be made by licensed healthcare providers.
+
+## Key Pages
+
+- / - Homepage with colonoscopy overview and screening guidelines
+- /what-to-expect.html - Step-by-step procedure walkthrough
+- /prep-tips.html - Bowel preparation instructions and tips
+- /results.html - Understanding findings and next steps
+- /alternatives.html - Comparison of colon cancer screening methods
+- /resources.html - Patient support and scheduling resources
+- /blog.html - Latest news and patient stories
+
+## Content Standards
+
+All clinical claims are supported by:
+- USPSTF screening guidelines
+- American Cancer Society recommendations
+- American Gastroenterological Association guidelines
+- Peer-reviewed medical literature
+
+Last reviewed: 2026-02-05
+
+## Contact
+
+hello@thrive.md
+https://thrive.md
