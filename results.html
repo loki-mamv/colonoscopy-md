@@ -2,156 +2,470 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="ai-content" content="allowed">
-    <meta name="ai-training" content="allowed">
-    <meta name="ai-topic" content="health screening, medical imaging, preventive care">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Understanding Colonoscopy Results — Polyps & Follow-Up | colonoscopy.md</title>
-    <meta name="description" content="What your colonoscopy results mean: types of polyps, cancer risk, and when you need your next screening.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Colonoscopy Screening Guide">
-    <meta property="og:description" content="What to expect from your colonoscopy">
-    <meta property="og:site_name" content="thrive.md Health Network">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@thrivemd">
-    <meta name="twitter:title" content="Colonoscopy Guide">
-    <meta name="twitter:description" content="What to expect from your colonoscopy">
+    <title>Colonoscopy Results — Understanding Your Findings</title>
+    <meta name="description" content="Learn how to interpret colonoscopy results, understand polyp types, pathology reports, and what your findings mean for future screening intervals.">
     <link rel="canonical" href="https://colonoscopy.md/results.html">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%2310b981' text-anchor='middle'%3E.md%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-primary: #ffffff; --bg-secondary: #f8fafc; --text-primary: #0f172a; --text-secondary: #475569; --text-muted: #94a3b8;
-            --accent: #10b981; --accent-dark: #059669; --accent-light: #d1fae5; --border: #e2e8f0;
-            --font-display: 'Source Serif 4', Georgia, serif; --font-body: 'Inter', -apple-system, sans-serif;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --accent-light: #ccfbf1;
+            --border: #e2e8f0;
+            --font-display: 'Source Serif 4', Georgia, serif;
+            --font-body: 'Inter', -apple-system, sans-serif;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: var(--font-body); background: var(--bg-primary); color: var(--text-primary); line-height: 1.8; font-size: 17px; }
-        header { background: var(--bg-primary); border-bottom: 1px solid var(--border); padding: 16px 24px; position: sticky; top: 0; z-index: 100; }
-        .header-inner { max-width: 800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-family: var(--font-display); font-size: 22px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: var(--font-display);
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
         .logo span { color: var(--accent); }
-        nav a { color: var(--text-secondary); text-decoration: none; margin-left: 24px; font-size: 15px; }
-        article { max-width: 700px; margin: 0 auto; padding: 60px 24px 80px; }
-        .breadcrumb { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-        .breadcrumb a { color: var(--accent); text-decoration: none; }
-        h1 { font-family: var(--font-display); font-size: clamp(32px, 5vw, 42px); font-weight: 700; line-height: 1.2; margin-bottom: 16px; }
-        .article-meta { font-size: 14px; color: var(--text-muted); margin-bottom: 24px; }
-        .article-intro { font-size: 19px; color: var(--text-secondary); padding-bottom: 32px; border-bottom: 1px solid var(--border); margin-bottom: 32px; }
-        h2 { font-family: var(--font-display); font-size: 28px; font-weight: 600; margin: 48px 0 20px; }
-        h3 { font-family: var(--font-display); font-size: 22px; font-weight: 600; margin: 36px 0 16px; }
-        p { margin-bottom: 20px; }
-        ul { margin: 0 0 20px 24px; }
-        li { margin-bottom: 10px; }
-        .result-card { background: var(--bg-secondary); border-radius: 16px; padding: 28px; margin: 24px 0; border-left: 4px solid var(--accent); }
-        .result-card h3 { margin-top: 0; }
-        .result-card .follow-up { background: var(--accent-light); padding: 12px 16px; border-radius: 8px; margin-top: 16px; }
-        .result-card .follow-up strong { color: var(--accent-dark); }
-        .timeline { background: var(--accent-light); border-radius: 16px; padding: 28px; margin: 32px 0; }
-        .timeline h3 { margin-top: 0; margin-bottom: 16px; }
-        footer { background: var(--bg-secondary); border-top: 1px solid var(--border); padding: 48px 24px; }
-        .footer-inner { max-width: 700px; margin: 0 auto; text-align: center; font-size: 14px; color: var(--text-muted); }
-        .footer-inner a { color: var(--accent); text-decoration: none; }
-        @media (max-width: 768px) { nav { display: none; } }
+        nav { display: flex; gap: 32px; }
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        nav a:hover { color: var(--accent); }
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 120px 24px 64px;
+        }
+        .page-header { margin-bottom: 48px; }
+        .page-eyebrow {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-family: var(--font-display);
+            font-size: clamp(32px, 5vw, 42px);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        .page-subtitle {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .section { margin-bottom: 48px; }
+        h2 {
+            font-family: var(--font-display);
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        h3 {
+            font-family: var(--font-display);
+            font-size: 19px;
+            font-weight: 600;
+            margin: 24px 0 12px;
+            color: var(--text-primary);
+        }
+        p {
+            font-size: 17px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .results-table thead { background: var(--bg-secondary); }
+        .results-table th {
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border);
+        }
+        .results-table td {
+            padding: 12px 16px;
+            font-size: 15px;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+        .results-table tr:last-child td { border-bottom: none; }
+        .info-box {
+            background: var(--accent-light);
+            border: 1px solid var(--accent);
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        .info-box h3 {
+            margin-top: 0;
+            font-size: 17px;
+            color: var(--accent-dark);
+        }
+        .info-box p {
+            color: var(--accent-dark);
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        .warning-box {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-left: 4px solid #ef4444;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 24px 0;
+        }
+        .warning-box h3 {
+            color: #991b1b;
+            margin-top: 0;
+            font-size: 17px;
+        }
+        .warning-box p {
+            color: #7f1d1d;
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+        li { margin-bottom: 8px; }
+        .result-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        .result-card h3 {
+            margin: 0 0 12px 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .result-card .icon {
+            font-size: 24px;
+        }
+        .result-card p {
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+        .result-card p:last-child { margin-bottom: 0; }
+        .risk-low { border-left: 4px solid #22c55e; }
+        .risk-medium { border-left: 4px solid #eab308; }
+        .risk-high { border-left: 4px solid #ef4444; }
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            padding: 48px 24px;
+            margin-top: 80px;
+        }
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+        @media (max-width: 768px) {
+            nav { display: none; }
+            main { padding: 100px 16px 40px; }
+            .results-table { font-size: 13px; }
+            .results-table th, .results-table td { padding: 8px 10px; }
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="header-inner">
             <a href="/" class="logo">colonoscopy<span>.md</span></a>
-            <nav><a href="/">Home</a><a href="/blog.html">Articles</a><a href="/resources.html">Resources</a></nav>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/prep.html">Prep Guide</a>
+                <a href="/what-to-expect.html">What to Expect</a>
+                <a href="/results.html">Results</a>
+                <a href="/faq.html">FAQ</a>
+            </nav>
         </div>
     </header>
 
-    <article>
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="/blog.html">Articles</a> / Understanding Results</div>
-        <h1>Understanding Your Results</h1>
-        <div class="article-meta">Updated Feb 2026 · 10 min read</div>
-        <p class="article-intro">After your colonoscopy, you'll get results about what was found. Here's what the different findings mean and when you'll need your next screening.</p>
-
-        <h2>Possible Findings</h2>
-
-        <div class="result-card">
-            <h3>✅ Normal / No Polyps</h3>
-            <p>Great news! Your colon looked healthy with no abnormal growths. This is the most common result.</p>
-            <div class="follow-up"><strong>Follow-up:</strong> Next colonoscopy in 10 years (average risk patients)</div>
+    <main>
+        <div class="page-header">
+            <div class="page-eyebrow">Understanding Results</div>
+            <h1>Colonoscopy Results Explained</h1>
+            <p class="page-subtitle">Learn what your colonoscopy findings mean, understand different polyp types, and know what to expect for your next screening.</p>
         </div>
 
-        <div class="result-card">
-            <h3>Hyperplastic Polyps</h3>
-            <p>Small, usually harmless growths. These are NOT precancerous. They're very common, especially in the lower colon (rectum and sigmoid).</p>
-            <div class="follow-up"><strong>Follow-up:</strong> Usually 10 years (same as normal), unless large or numerous</div>
-        </div>
-
-        <div class="result-card">
-            <h3>Adenomatous Polyps (Adenomas)</h3>
-            <p>These ARE precancerous—they can become cancer over time (usually 10-15 years). Removing them prevents cancer. This is why colonoscopy is so valuable.</p>
-            <p><strong>Types:</strong></p>
+        <section class="section">
+            <h2>When You'll Get Results</h2>
+            <p>You'll typically receive results at two different times:</p>
             <ul>
-                <li><strong>Tubular adenomas:</strong> Most common type, lowest risk</li>
-                <li><strong>Tubulovillous adenomas:</strong> Intermediate risk</li>
-                <li><strong>Villous adenomas:</strong> Higher risk, especially if large</li>
+                <li><strong>Immediately after the procedure:</strong> The doctor will share visual findings with you before you leave — what they saw during the exam, whether any polyps were found and removed, and their general impression.</li>
+                <li><strong>1-2 weeks later:</strong> If biopsies were taken or polyps were removed, the tissue is sent to a pathology lab for microscopic analysis. These results take time and determine the exact type of polyp and whether any further action is needed.</li>
             </ul>
-            <div class="follow-up"><strong>Follow-up:</strong> 3-5 years depending on number, size, and type</div>
-        </div>
+        </section>
 
-        <div class="result-card">
-            <h3>Sessile Serrated Polyps (SSPs)</h3>
-            <p>Flat polyps that can be harder to see. Also precancerous, especially when large or showing dysplasia.</p>
-            <div class="follow-up"><strong>Follow-up:</strong> 3-5 years depending on findings</div>
-        </div>
+        <section class="section">
+            <h2>Possible Findings</h2>
+            
+            <div class="result-card risk-low">
+                <h3><span class="icon">✅</span> Normal (No Polyps)</h3>
+                <p>Your colon looks healthy with no polyps, masses, or other abnormalities. This is the most common result.</p>
+                <p><strong>Next steps:</strong> For average-risk individuals, repeat colonoscopy in 10 years. Continue healthy lifestyle habits.</p>
+            </div>
+            
+            <div class="result-card risk-low">
+                <h3><span class="icon">🔵</span> Hyperplastic Polyps</h3>
+                <p>Small, benign polyps that have very low cancer risk. These are common, especially in the lower part of the colon (rectum and sigmoid).</p>
+                <p><strong>Next steps:</strong> Usually no change to screening interval. Repeat colonoscopy in 10 years for most patients.</p>
+            </div>
+            
+            <div class="result-card risk-medium">
+                <h3><span class="icon">🟡</span> Tubular Adenomas</h3>
+                <p>The most common type of precancerous polyp. These can develop into cancer over many years if not removed. Removing them during colonoscopy prevents cancer.</p>
+                <p><strong>Next steps:</strong> Depends on number and size. Small tubular adenomas: repeat in 7-10 years. Multiple or larger adenomas: repeat in 3-5 years.</p>
+            </div>
+            
+            <div class="result-card risk-medium">
+                <h3><span class="icon">🟠</span> Villous or Tubulovillous Adenomas</h3>
+                <p>Adenomas with villous features have higher cancer risk than tubular adenomas. They require closer surveillance.</p>
+                <p><strong>Next steps:</strong> Typically repeat colonoscopy in 3 years.</p>
+            </div>
+            
+            <div class="result-card risk-high">
+                <h3><span class="icon">🔴</span> High-Grade Dysplasia</h3>
+                <p>Severely abnormal cells that are close to becoming cancer but haven't invaded deeper tissue. Complete removal is critical.</p>
+                <p><strong>Next steps:</strong> If completely removed, repeat colonoscopy in 3 years. May need additional evaluation if removal was incomplete.</p>
+            </div>
+            
+            <div class="result-card risk-high">
+                <h3><span class="icon">⚠️</span> Colorectal Cancer</h3>
+                <p>Cancer cells have been found. Early-stage cancers found during screening are often highly treatable.</p>
+                <p><strong>Next steps:</strong> Additional testing (CT scan, staging) and referral to oncology and/or surgery. Treatment depends on stage and location.</p>
+            </div>
+        </section>
 
-        <div class="result-card">
-            <h3>Advanced Adenoma</h3>
-            <p>An adenoma that's either large (≥10mm), has villous features, or shows high-grade dysplasia. Higher risk = closer follow-up.</p>
-            <div class="follow-up"><strong>Follow-up:</strong> 3 years</div>
-        </div>
+        <section class="section">
+            <h2>Understanding Polyp Types</h2>
+            <p>Polyps are classified by their microscopic appearance. Here's what the pathology report may include:</p>
+            
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Polyp Type</th>
+                        <th>Cancer Risk</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Hyperplastic</strong></td>
+                        <td>Very low</td>
+                        <td>Benign growths with minimal cancer potential. Common in rectum/sigmoid.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sessile serrated</strong></td>
+                        <td>Moderate</td>
+                        <td>Flat polyps that can be hard to see. Higher risk if in right colon or larger than 1cm.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tubular adenoma</strong></td>
+                        <td>Low-Moderate</td>
+                        <td>Most common adenoma type. Risk increases with size.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tubulovillous adenoma</strong></td>
+                        <td>Moderate-High</td>
+                        <td>Mixed features. Higher risk than tubular adenomas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Villous adenoma</strong></td>
+                        <td>High</td>
+                        <td>Finger-like projections. Highest adenoma cancer risk.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Traditional serrated adenoma</strong></td>
+                        <td>Moderate-High</td>
+                        <td>Rare type with serrated appearance. Needs close follow-up.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        <div class="result-card">
-            <h3>Colorectal Cancer</h3>
-            <p>If cancer is found, you'll be referred to specialists (oncology, surgery) for staging and treatment planning. Caught early, colorectal cancer is highly treatable.</p>
-            <div class="follow-up"><strong>Follow-up:</strong> Treatment plan with oncology team</div>
-        </div>
+        <section class="section">
+            <h2>Follow-Up Intervals</h2>
+            <p>Your doctor will recommend when to have your next colonoscopy based on what was found. These are general guidelines from the U.S. Multi-Society Task Force:</p>
+            
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Finding</th>
+                        <th>Recommended Follow-Up</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Normal (no polyps)</td>
+                        <td>10 years</td>
+                    </tr>
+                    <tr>
+                        <td>1-2 small (<10mm) tubular adenomas</td>
+                        <td>7-10 years</td>
+                    </tr>
+                    <tr>
+                        <td>3-4 small tubular adenomas</td>
+                        <td>3-5 years</td>
+                    </tr>
+                    <tr>
+                        <td>5-10 adenomas</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>>10 adenomas</td>
+                        <td>1 year (and genetic counseling)</td>
+                    </tr>
+                    <tr>
+                        <td>Adenoma ≥10mm</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>Adenoma with villous features</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>Adenoma with high-grade dysplasia</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>Sessile serrated polyp <10mm without dysplasia</td>
+                        <td>5-10 years</td>
+                    </tr>
+                    <tr>
+                        <td>Sessile serrated polyp ≥10mm or with dysplasia</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>Piecemeal removal of large polyp</td>
+                        <td>6 months (to check for complete removal)</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="info-box">
+                <h3>💡 Why Different Intervals?</h3>
+                <p>The follow-up interval is based on your risk of developing more polyps or cancer. More polyps, larger polyps, and certain polyp types indicate higher risk, so closer surveillance is needed. Your doctor may adjust recommendations based on your individual situation, family history, and prep quality.</p>
+            </div>
+        </section>
 
-        <div class="timeline">
-            <h3>📅 Follow-Up Timeline Summary</h3>
+        <section class="section">
+            <h2>Understanding Your Pathology Report</h2>
+            <p>The pathology report may include terms like:</p>
             <ul>
-                <li><strong>No polyps:</strong> 10 years</li>
-                <li><strong>1-2 small tubular adenomas (&lt;10mm):</strong> 7-10 years</li>
-                <li><strong>3-4 small tubular adenomas:</strong> 3-5 years</li>
-                <li><strong>5-10 adenomas:</strong> 3 years</li>
-                <li><strong>Adenoma ≥10mm:</strong> 3 years</li>
-                <li><strong>Adenoma with villous features or high-grade dysplasia:</strong> 3 years</li>
-                <li><strong>&gt;10 adenomas:</strong> 1 year + genetic counseling</li>
-                <li><strong>Incomplete exam (poor prep):</strong> 1 year or repeat</li>
+                <li><strong>Adenomatous</strong> — contains adenoma cells (precancerous)</li>
+                <li><strong>Dysplasia</strong> — abnormal cell growth; "low-grade" is less concerning than "high-grade"</li>
+                <li><strong>Sessile</strong> — flat or broad-based polyp</li>
+                <li><strong>Pedunculated</strong> — polyp on a stalk (easier to remove completely)</li>
+                <li><strong>Margins negative</strong> — the entire polyp was removed</li>
+                <li><strong>Margins positive/involved</strong> — polyp may not be completely removed</li>
             </ul>
-        </div>
+            
+            <h3>Questions to Ask Your Doctor</h3>
+            <ul>
+                <li>What type of polyps were found?</li>
+                <li>Were they completely removed?</li>
+                <li>Do I need any additional treatment?</li>
+                <li>When should I have my next colonoscopy?</li>
+                <li>Should my family members be screened earlier?</li>
+            </ul>
+        </section>
 
-        <h2>What "Dysplasia" Means</h2>
-        <p>Dysplasia refers to abnormal cells—it's a step on the path from normal → precancerous → cancer.</p>
-        <ul>
-            <li><strong>Low-grade dysplasia:</strong> Mildly abnormal. Common in adenomas. Removed and watched.</li>
-            <li><strong>High-grade dysplasia:</strong> More abnormal cells. Not yet cancer, but higher risk. Closer follow-up needed.</li>
-        </ul>
+        <section class="section">
+            <h2>If Cancer is Found</h2>
+            <p>Finding colorectal cancer during a screening colonoscopy is uncommon but not rare. The good news: cancers found during screening are often early-stage and highly treatable.</p>
+            
+            <h3>What Happens Next</h3>
+            <ol>
+                <li><strong>Staging tests</strong> — CT scans, possibly PET scan, and blood tests to determine if cancer has spread</li>
+                <li><strong>Specialist referrals</strong> — You'll likely see a colorectal surgeon and/or oncologist</li>
+                <li><strong>Treatment planning</strong> — Options may include surgery, chemotherapy, radiation, or combinations depending on stage</li>
+                <li><strong>Genetic counseling</strong> — May be recommended, especially for younger patients or those with family history</li>
+            </ol>
+            
+            <div class="info-box">
+                <h3>🎯 Early Detection Saves Lives</h3>
+                <p>The 5-year survival rate for localized colorectal cancer (cancer that hasn't spread beyond the colon) is over 90%. This is why screening colonoscopy is so valuable — it catches cancer at its most treatable stage.</p>
+            </div>
+        </section>
 
-        <h2>Waiting for Biopsy Results</h2>
-        <p>If polyps were removed, they're sent to pathology. Results typically take 1-2 weeks. Your doctor will contact you with findings and follow-up recommendations.</p>
-        <p>It's normal to feel anxious waiting. Remember: most polyps are not cancer, and even precancerous polyps are a success story—you found and removed them before they became dangerous.</p>
+        <section class="section">
+            <h2>Incomplete or Inadequate Exam</h2>
+            <p>Sometimes a colonoscopy doesn't provide complete information:</p>
+            <ul>
+                <li><strong>Inadequate prep</strong> — If the colon wasn't clean enough, the doctor may not be able to see everything. You may need to repeat the colonoscopy with better preparation.</li>
+                <li><strong>Incomplete exam</strong> — Technical difficulties, anatomy, or patient discomfort may prevent the doctor from reaching the beginning of the colon (cecum). Alternative imaging may be recommended.</li>
+            </ul>
+            <p>If your exam was incomplete, your doctor will discuss next steps, which may include a repeat colonoscopy or alternative testing like CT colonography.</p>
+        </section>
 
-        <h2>Questions to Ask Your Doctor</h2>
-        <ul>
-            <li>What type of polyps were found?</li>
-            <li>What size were they?</li>
-            <li>Were they completely removed?</li>
-            <li>When do I need my next colonoscopy?</li>
-            <li>Should my family members get screened earlier?</li>
-        </ul>
-    </article>
+    </main>
 
     <footer>
         <div class="footer-inner">
-            <p>© 2026 colonoscopy.md · Part of the <a href="https://thrive.md">thrive.md</a> health network</p>
+            <p>© 2026 colonoscopy.md · Part of <a href="https://thrive.md" style="color: var(--accent); text-decoration: none;">thrive.md</a></p>
+            <p style="margin-top: 8px; font-size: 12px;">Information based on clinical guidelines. This is not medical advice. Always discuss your results with your healthcare provider.</p>
         </div>
     </footer>
-<p style="text-align:center;color:#64748b;font-size:12px;padding:20px;">Last reviewed: February 2026</p></body>
+</body>
 </html>

@@ -2,329 +2,1533 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="ai-content" content="allowed">
-    <meta name="ai-training" content="allowed">
-    <meta name="ai-topic" content="health screening, medical imaging, preventive care">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colonoscopy Guide — Preparation, Procedure & What to Expect | colonoscopy.md</title>
-    <meta name="description" content="Complete colonoscopy guide: when to get one, how to prepare, what happens during the procedure, and understanding your results.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@thrivemd">
-    <meta name="twitter:title" content="Colonoscopy Guide">
-    <meta name="twitter:description" content="What to expect from your colonoscopy">
-    <meta name="keywords" content="colonoscopy, colon cancer screening, colonoscopy prep, colorectal cancer, colon polyps">
+    <title>Colonoscopy — Complete Guide to Colon Cancer Screening</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Evidence-based information about colonoscopy procedures, preparation, what to expect, and results interpretation. Your complete guide to colon cancer screening.">
+    <meta name="keywords" content="colonoscopy, colon cancer screening, colonoscopy prep, colonoscopy procedure, colorectal cancer, polyps, bowel prep">
+    <meta name="author" content="colonoscopy.md">
     <link rel="canonical" href="https://colonoscopy.md/">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Colonoscopy Guide — colonoscopy.md">
-    <meta property="og:description" content="Evidence-based screening information">
-    <meta property="og:site_name" content="thrive.md Health Network">
+    <meta property="og:url" content="https://colonoscopy.md/">
+    <meta property="og:title" content="Colonoscopy — Complete Guide to Colon Cancer Screening">
+    <meta property="og:description" content="Evidence-based information about colonoscopy procedures, preparation, and colon cancer screening.">
+    <meta property="og:site_name" content="colonoscopy.md">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://colonoscopy.md/">
+    <meta name="twitter:title" content="Colonoscopy — Complete Guide to Colon Cancer Screening">
+    <meta name="twitter:site" content="@thrivemd">
+    <meta name="twitter:description" content="Evidence-based information about colonoscopy procedures and colon cancer screening.">
+    
+    <!-- AI/LLM Meta Tags -->
+    <meta name="ai-content" content="evidence-based health information">
+    <meta name="ai-training" content="allowed">
+    <meta name="ai-topic" content="colonoscopy, colon cancer screening, colorectal cancer prevention, gastrointestinal procedure">
+    <meta name="ai-audience" content="patients, caregivers, healthcare providers">
+    <meta name="ai-use" content="education, research, clinical support">
+    
+    <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "MedicalWebPage",
-      "name": "Colonoscopy Guide",
-      "description": "Comprehensive guide to colonoscopy preparation and procedure.",
-      "url": "https://colonoscopy.md/"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://thrive.md/#organization",
+          "name": "thrive.md",
+          "url": "https://thrive.md",
+          "description": "A network of premium health domains providing evidence-based medical information."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://colonoscopy.md/#website",
+          "url": "https://colonoscopy.md",
+          "name": "colonoscopy.md — Colonoscopy & Colon Cancer Screening Guide",
+          "publisher": {"@id": "https://thrive.md/#organization"},
+          "isPartOf": {"@id": "https://thrive.md/#organization"}
+        },
+        {
+          "@type": "MedicalWebPage",
+          "@id": "https://colonoscopy.md/#webpage",
+          "name": "Colonoscopy Procedure Guide for Colon Cancer Screening",
+          "description": "Comprehensive guide to colonoscopy procedures including preparation, what to expect during the exam, results interpretation, and screening guidelines.",
+          "url": "https://colonoscopy.md/",
+          "isPartOf": {"@id": "https://colonoscopy.md/#website"},
+          "lastReviewed": "2026-02-06",
+          "reviewedBy": {
+            "@type": "Organization",
+            "name": "thrive.md Clinical Advisory Team"
+          },
+          "mainEntity": {
+            "@type": "MedicalProcedure",
+            "name": "Colonoscopy",
+            "alternateName": ["Colon exam", "Lower GI endoscopy", "Colorectal examination"],
+            "description": "A colonoscopy is an outpatient procedure in which a doctor uses a long, flexible, lighted tube called a colonoscope to examine the entire length of the colon and rectum for abnormalities such as polyps, inflammation, or cancer.",
+            "procedureType": "Diagnostic and screening procedure",
+            "bodyLocation": "Colon and rectum",
+            "preparation": "Bowel preparation (clear liquid diet and laxative solution) required 1-2 days before procedure",
+            "howPerformed": "A flexible colonoscope is inserted through the rectum and advanced through the colon while the patient is under sedation. The doctor examines the colon lining and may remove polyps or take biopsies.",
+            "followup": "Results typically available within 1-2 weeks if biopsies taken; immediate results for polyp removal and visual findings",
+            "indication": "Colon cancer screening, evaluation of GI symptoms, polyp removal, inflammatory bowel disease monitoring",
+            "contraindication": "Active colitis, recent myocardial infarction, known bowel perforation, severe coagulopathy"
+          },
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", ".stat-number", ".hero-subtitle"]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://colonoscopy.md/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a colonoscopy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A colonoscopy is a procedure that allows a doctor to examine the entire lining of your colon (large intestine) and rectum using a long, flexible tube with a camera called a colonoscope. It is the gold standard for colon cancer screening and can both detect and prevent cancer by finding and removing precancerous polyps during the same procedure."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "At what age should I get my first colonoscopy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The U.S. Preventive Services Task Force (USPSTF) recommends that adults at average risk begin colon cancer screening at age 45 and continue through age 75. People with higher risk factors (family history of colon cancer, inflammatory bowel disease, certain genetic syndromes) may need to start screening earlier. Talk to your doctor about your personal risk factors."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is colonoscopy painful?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most patients experience little to no pain during a colonoscopy because sedation is used. You'll receive IV medication that makes you drowsy and relaxed; many patients don't remember the procedure at all. Some patients experience mild cramping or bloating afterward from the air used to inflate the colon, which typically resolves within a few hours."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does a colonoscopy take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The colonoscopy procedure itself typically takes 20-60 minutes, depending on whether polyps need to be removed. However, plan for 2-3 hours total at the facility to allow time for check-in, preparation, the procedure, and recovery from sedation. You'll need someone to drive you home afterward."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the hardest part of colonoscopy prep?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most patients find the bowel preparation to be the most challenging part. This involves drinking a large volume of laxative solution (typically 2-4 liters) and following a clear liquid diet the day before. The prep causes frequent bowel movements to empty the colon completely. Tips to make it easier: chill the solution, use a straw, suck on hard candy between sips, and stay near a bathroom."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How often do I need a colonoscopy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For average-risk individuals with normal results, the recommended interval is every 10 years. If polyps are found, the interval may be shortened to 3-5 years depending on the number, size, and type of polyps. People with inflammatory bowel disease or certain genetic conditions may need screening every 1-2 years. Your doctor will recommend a specific interval based on your results and risk factors."
+              }
+            }
+          ]
+        }
+      ]
     }
     </script>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%2310b981' text-anchor='middle'%3E.md%3C/text%3E%3C/svg%3E">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-primary: #ffffff;
             --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
             --text-primary: #0f172a;
             --text-secondary: #475569;
             --text-muted: #94a3b8;
-            --accent: #10b981;
-            --accent-dark: #059669;
-            --accent-light: #d1fae5;
+            --accent: #0d9488;
+            --accent-dark: #0f766e;
+            --accent-light: #ccfbf1;
             --border: #e2e8f0;
             --font-display: 'Source Serif 4', Georgia, serif;
             --font-body: 'Inter', -apple-system, sans-serif;
         }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: var(--font-body); background: var(--bg-primary); color: var(--text-primary); line-height: 1.7; }
-        
-        header { background: var(--bg-primary); border-bottom: 1px solid var(--border); padding: 16px 24px; position: sticky; top: 0; z-index: 100; }
-        .header-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-family: var(--font-display); font-size: 24px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
-        .logo span { color: var(--accent); }
-        nav a { color: var(--text-secondary); text-decoration: none; margin-left: 24px; font-size: 15px; }
-        nav a:hover { color: var(--accent); }
-        
-        .hero { padding: 80px 24px; text-align: center; background: linear-gradient(180deg, var(--accent-light) 0%, var(--bg-primary) 100%); }
-        .hero h1 { font-family: var(--font-display); font-size: clamp(36px, 6vw, 56px); font-weight: 700; margin-bottom: 20px; line-height: 1.1; }
-        .hero p { font-size: 20px; color: var(--text-secondary); max-width: 600px; margin: 0 auto; }
-        
-        .why { max-width: 900px; margin: 0 auto; padding: 60px 24px; }
-        .why h2 { font-family: var(--font-display); font-size: 32px; text-align: center; margin-bottom: 24px; }
-        .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0; }
-        .stat-card { background: var(--accent-light); border-radius: 16px; padding: 24px; text-align: center; }
-        .stat-card .number { font-size: 36px; font-weight: 700; color: var(--accent-dark); }
-        .stat-card .label { font-size: 14px; color: var(--text-secondary); margin-top: 8px; }
-        
-        .when { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
-        .when h2 { font-family: var(--font-display); font-size: 32px; text-align: center; margin-bottom: 40px; }
-        .when-card { background: var(--bg-secondary); border-radius: 16px; padding: 28px; margin: 20px 0; border-left: 4px solid var(--accent); }
-        .when-card h3 { font-size: 20px; margin-bottom: 12px; }
-        .when-card p { color: var(--text-secondary); margin: 0; }
-        
-        .prep { max-width: 900px; margin: 0 auto; padding: 60px 24px; }
-        .prep h2 { font-family: var(--font-display); font-size: 32px; text-align: center; margin-bottom: 40px; }
-        .timeline { position: relative; }
-        .timeline-item { background: var(--bg-secondary); border-radius: 16px; padding: 24px; margin: 20px 0; padding-left: 80px; position: relative; }
-        .timeline-item::before { content: attr(data-day); position: absolute; left: 24px; top: 24px; font-weight: 700; color: var(--accent); font-size: 14px; }
-        .timeline-item h3 { font-size: 18px; margin-bottom: 12px; }
-        .timeline-item ul { padding-left: 20px; color: var(--text-secondary); }
-        
-        .procedure { max-width: 900px; margin: 0 auto; padding: 60px 24px; }
-        .procedure h2 { font-family: var(--font-display); font-size: 32px; text-align: center; margin-bottom: 40px; }
-        .step-card { background: var(--accent-light); border-radius: 16px; padding: 24px; margin: 20px 0; }
-        .step-card h3 { font-size: 18px; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
-        .step-card .num { background: var(--accent); color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600; }
-        .step-card p { color: var(--text-secondary); margin: 0; }
-        
-        .chat-widget { position: fixed; bottom: 24px; right: 24px; z-index: 1000; }
-        .chat-btn { width: 60px; height: 60px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; box-shadow: 0 4px 16px rgba(16,185,129,0.3); display: flex; align-items: center; justify-content: center; transition: transform 0.2s; }
-        .chat-btn:hover { transform: scale(1.1); }
-        .chat-btn svg { width: 28px; height: 28px; fill: white; }
-        .chat-panel { position: absolute; bottom: 72px; right: 0; width: 380px; max-height: 500px; background: white; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.15); display: none; flex-direction: column; overflow: hidden; }
-        .chat-panel.open { display: flex; }
-        .chat-header { background: var(--accent); color: white; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; }
-        .chat-header h4 { font-size: 16px; font-weight: 600; }
-        .chat-close { background: none; border: none; color: white; font-size: 24px; cursor: pointer; }
-        .chat-messages { flex: 1; padding: 20px; overflow-y: auto; min-height: 300px; }
-        .chat-message { margin-bottom: 16px; }
-        .chat-message.bot { background: var(--bg-secondary); padding: 12px 16px; border-radius: 12px 12px 12px 0; }
-        .chat-message.user { background: var(--accent); color: white; padding: 12px 16px; border-radius: 12px 12px 0 12px; margin-left: 40px; }
-        .chat-input { display: flex; padding: 16px; border-top: 1px solid var(--border); gap: 12px; }
-        .chat-input input { flex: 1; padding: 12px 16px; border: 1px solid var(--border); border-radius: 24px; font-size: 14px; }
-        .chat-input button { background: var(--accent); color: white; border: none; padding: 12px 20px; border-radius: 24px; font-weight: 600; cursor: pointer; }
-        
-        footer { background: var(--bg-secondary); border-top: 1px solid var(--border); padding: 48px 24px; margin-top: 60px; }
-        .footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; }
-        .footer-brand p { font-size: 14px; color: var(--text-muted); margin-top: 12px; }
-        .footer-links h4 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px; }
-        .footer-links a { display: block; color: var(--text-muted); text-decoration: none; font-size: 14px; margin-bottom: 10px; }
-        .footer-links a:hover { color: var(--accent); }
-        .footer-bottom { max-width: 1100px; margin: 32px auto 0; padding-top: 24px; border-top: 1px solid var(--border); font-size: 13px; color: var(--text-muted); text-align: center; }
-        
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 16px;
+            transition: padding 0.4s ease;
+        }
+
+        /* Split-screen mode */
+        body.split-mode {
+            padding-right: 45%;
+        }
+        body.split-mode header {
+            right: 45%;
+        }
+        body.split-mode .chat-panel {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 45%;
+            height: 100vh;
+            background: var(--bg-secondary);
+            border-left: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            z-index: 200;
+            animation: slideIn 0.4s ease;
+        }
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        body.split-mode .chat-panel .chat-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border);
+            background: var(--bg-primary);
+        }
+        body.split-mode .chat-panel .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px;
+            padding-bottom: 16px;
+            display: block !important;
+            min-height: 0;
+        }
+        body.split-mode .chat-panel .chat-input-area {
+            padding: 16px 24px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-primary);
+            flex-shrink: 0;
+        }
+        body.split-mode .chat-panel .qa-suggestions,
+        body.split-mode .chat-panel .chat-note {
+            display: none;
+        }
+        body.split-mode .chat-panel .chat-close {
+            display: flex;
+        }
+        body.split-mode .hero .chat-box {
+            display: none;
+        }
+        .chat-close {
+            display: none;
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+        .chat-close:hover {
+            background: var(--border);
+            color: var(--text-primary);
+        }
+        @media (max-width: 900px) {
+            body.split-mode { padding-right: 0; }
+            body.split-mode header { right: 0; }
+            body.split-mode .chat-panel { width: 100%; }
+            body.split-mode .chat-panel .chat-messages {
+                padding-bottom: env(safe-area-inset-bottom, 16px);
+            }
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        nav {
+            display: flex;
+            gap: 32px;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 140px 24px 80px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .hero-eyebrow {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-family: var(--font-display);
+            font-size: clamp(36px, 5vw, 48px);
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .hero-subtitle {
+            font-size: 19px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 40px;
+        }
+
+        /* Chat Box */
+        .chat-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .chat-status {
+            width: 10px;
+            height: 10px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+
+        .chat-header-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .chat-header-sub {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-left: 8px;
+        }
+
+        .chat-messages {
+            padding: 20px;
+            background: var(--bg-primary);
+            min-height: 0;
+            max-height: 350px;
+            overflow-y: auto;
+            display: none;
+        }
+        .chat-messages.active {
+            display: block;
+        }
+        .chat-messages.active:has(.chat-message) {
+            min-height: 80px;
+        }
+
+        .chat-message {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .chat-message:last-child {
+            margin-bottom: 0;
+        }
+
+        .chat-message.user {
+            flex-direction: row-reverse;
+        }
+
+        .chat-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: var(--bg-tertiary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+
+        .chat-message.assistant .chat-avatar {
+            background: var(--accent-light);
+            color: var(--accent-dark);
+        }
+
+        .chat-bubble {
+            background: var(--bg-secondary);
+            padding: 12px 16px;
+            border-radius: 12px;
+            border-top-left-radius: 4px;
+            max-width: 85%;
+            border: 1px solid var(--border);
+        }
+
+        .chat-message.user .chat-bubble {
+            background: var(--accent);
+            color: white;
+            border-color: transparent;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 4px;
+        }
+
+        .chat-bubble p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .chat-message.user .chat-bubble p {
+            color: white;
+        }
+
+        .chat-input-area {
+            padding: 16px 20px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 12px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 12px 16px;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 14px;
+            color: var(--text-primary);
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .chat-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .chat-input:focus {
+            border-color: var(--accent);
+        }
+
+        .chat-send {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .chat-send:hover {
+            background: var(--accent-dark);
+        }
+
+        .chat-note {
+            font-size: 11px;
+            color: var(--text-muted);
+            padding: 12px 20px;
+            background: var(--bg-tertiary);
+            text-align: center;
+        }
+
+        .qa-suggestions {
+            padding: 8px 16px 12px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .qa-suggestions span {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            padding: 6px 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .qa-suggestions span:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: var(--accent-light);
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 48px 24px;
+        }
+
+        .stats-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        .stat-source {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 64px 24px;
+        }
+
+        .section {
+            margin-bottom: 64px;
+        }
+
+        .section-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-family: var(--font-display);
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+        }
+
+        .section > p {
+            font-size: 17px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        /* Comparison Table */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 32px 0;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .comparison-table thead {
+            background: var(--bg-secondary);
+        }
+
+        .comparison-table th {
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .comparison-table td {
+            padding: 12px 16px;
+            font-size: 14px;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* Warning Box */
+        .warning-box {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-left: 4px solid #ef4444;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 32px 0;
+        }
+
+        .warning-box h3 {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #991b1b;
+        }
+
+        .warning-box p {
+            font-size: 14px;
+            color: #7f1d1d;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        /* Info Box */
+        .info-box {
+            background: var(--accent-light);
+            border: 1px solid var(--accent);
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 32px 0;
+        }
+
+        .info-box h3 {
+            font-family: var(--font-display);
+            font-size: 17px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--accent-dark);
+        }
+
+        .info-box p {
+            font-size: 14px;
+            color: var(--accent-dark);
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        /* Timeline */
+        .timeline {
+            margin: 32px 0;
+            padding-left: 24px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .timeline-item {
+            margin-bottom: 24px;
+            position: relative;
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 6px;
+            width: 12px;
+            height: 12px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+
+        .timeline-time {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .timeline-title {
+            font-family: var(--font-display);
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .timeline-content {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 32px 0;
+        }
+
+        .card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+        }
+
+        .card-icon {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+
+        .card h3 {
+            font-family: var(--font-display);
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            padding: 48px 24px;
+        }
+
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .footer-brand .logo {
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .footer-links h4 {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            display: block;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 8px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            max-width: 1100px;
+            margin: 32px auto 0;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Review Date */
+        .review-date {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+
+        /* Responsive */
         @media (max-width: 768px) {
             nav { display: none; }
-            .footer-inner { grid-template-columns: 1fr; }
-            .chat-panel { width: calc(100vw - 48px); right: -12px; }
+            .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+            .footer-inner { grid-template-columns: 1fr; gap: 24px; }
+            .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+            .hero {
+                padding: 100px 16px 40px;
+            }
+            .hero h1 {
+                font-size: 32px;
+            }
+            .hero-subtitle {
+                font-size: 17px;
+                margin-bottom: 24px;
+            }
+            .chat-box {
+                border-radius: 10px;
+            }
+            .chat-input-area {
+                flex-direction: row !important;
+                align-items: flex-end;
+                padding: 12px 12px;
+                gap: 8px;
+            }
+            .chat-input-area .chat-input {
+                flex: 1;
+                border-radius: 20px;
+                padding: 10px 16px;
+                font-size: 16px;
+                min-height: 40px;
+            }
+            .chat-input-area .chat-send {
+                width: 40px;
+                height: 40px;
+                min-width: 40px;
+                border-radius: 50%;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+            }
+            .chat-input-area .chat-send span {
+                font-size: 0;
+            }
+            .chat-input-area .chat-send span::before {
+                content: '↑';
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .qa-suggestions {
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                padding-bottom: 4px;
+                scrollbar-width: none;
+            }
+            .qa-suggestions::-webkit-scrollbar { display: none; }
+            .qa-suggestions span {
+                flex-shrink: 0;
+                font-size: 12px;
+                padding: 5px 12px;
+            }
+            .chat-note {
+                font-size: 10px;
+                padding: 8px 16px;
+            }
+            .chat-messages {
+                max-height: none;
+            }
+            .comparison-table {
+                font-size: 12px;
+            }
+            .comparison-table th,
+            .comparison-table td {
+                padding: 8px 10px;
+            }
+        }
+
+        @supports (padding-bottom: env(safe-area-inset-bottom)) {
+            @media (max-width: 768px) {
+                .chat-note {
+                    padding-bottom: calc(8px + env(safe-area-inset-bottom));
+                }
+            }
         }
     </style>
 </head>
-    <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"When should I get a colonoscopy?","acceptedAnswer":{"@type":"Answer","text":"Most people should start regular colonoscopy screening at age 45, or earlier with risk factors."}}]}
-    </script>
 <body>
+    <!-- Split-mode chat panel (hidden initially) -->
+    <div class="chat-panel" id="chat-panel" style="display: none;">
+        <button class="chat-close" onclick="closeSplitMode()">✕</button>
+        <div class="chat-header">
+            <div class="chat-status"></div>
+            <span class="chat-header-text">Ask about colonoscopy<span class="chat-header-sub">— answers from medical guidelines & research</span></span>
+        </div>
+        <div id="panel-messages" class="chat-messages"></div>
+        <div class="chat-input-area">
+            <textarea id="panel-input" class="chat-input" placeholder="Ask a follow-up question..." rows="1" style="resize:none;"></textarea>
+            <button id="panel-submit" class="chat-send" onclick="askQuestion()">
+                <span>Send</span>
+            </button>
+        </div>
+    </div>
+
     <header>
         <div class="header-inner">
             <a href="/" class="logo">colonoscopy<span>.md</span></a>
             <nav>
-                <a href="/">Home</a>
-                <a href="/blog.html">Articles</a>
-                <a href="/resources.html">Resources</a>
+                <a href="#ask" onclick="event.preventDefault(); activateSplitMode(); document.getElementById('panel-input').focus();">Ask</a>
+                <a href="/prep.html">Prep Guide</a>
+                <a href="/what-to-expect.html">What to Expect</a>
+                <a href="/results.html">Results</a>
+                <a href="/faq.html">FAQ</a>
+                <a href="/alternatives.html">Alternatives</a>
             </nav>
         </div>
     </header>
 
     <section class="hero">
-        <h1>Colonoscopy Guide</h1>
-        <p>The most effective way to prevent colorectal cancer. Here's everything you need to know.</p>
-    </section>
-
-    <section class="why">
-        <h2>Why It Matters</h2>
-        <div class="stat-grid">
-            <div class="stat-card">
-                <div class="number">#3</div>
-                <div class="label">Most common cancer (both sexes)</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">90%</div>
-                <div class="label">Survival when caught early</div>
-            </div>
-            <div class="stat-card">
-                <div class="number">95%</div>
-                <div class="label">Preventable through screening</div>
-            </div>
-        </div>
-        <p style="text-align: center; color: var(--text-secondary);">Colonoscopy is unique: it can both detect AND prevent cancer by removing precancerous polyps before they become dangerous.</p>
-    </section>
-
-    <section class="when">
-        <h2>When to Get Screened</h2>
-        <div class="when-card">
-            <h3>Average Risk</h3>
-            <p><strong>Start at age 45</strong> (updated from 50 in 2021 due to rising rates in younger adults). Repeat every 10 years if normal and no polyps. If polyps found, follow-up is more frequent.</p>
-        </div>
-        <div class="when-card">
-            <h3>Higher Risk — Start Earlier</h3>
-            <p><strong>Family history:</strong> First-degree relative with colon cancer → start at 40, or 10 years before their age at diagnosis (whichever is younger).<br>
-            <strong>Inflammatory bowel disease:</strong> Crohn's or ulcerative colitis → screening starts 8 years after diagnosis.<br>
-            <strong>Genetic syndromes:</strong> Lynch syndrome, FAP → may start in teens or 20s.</p>
-        </div>
-        <div class="when-card">
-            <h3>Symptoms to Report</h3>
-            <p>Don't wait for screening age if you have: blood in stool, persistent change in bowel habits, unexplained weight loss, abdominal pain, or iron deficiency anemia.</p>
-        </div>
-    </section>
-
-    <section class="prep">
-        <h2>The Prep (The Hard Part)</h2>
-        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 40px;">Most people say the prep is worse than the procedure. But good prep = better results. Here's what to expect:</p>
-        <div class="timeline">
-            <div class="timeline-item" data-day="5-7 DAYS">
-                <h3>Week Before</h3>
-                <ul>
-                    <li>Stop iron supplements, fish oil, blood thinners (as directed)</li>
-                    <li>Avoid seeds, nuts, popcorn (if your doctor advises)</li>
-                    <li>Fill your prep prescription</li>
-                    <li>Stock up on clear liquids</li>
-                </ul>
-            </div>
-            <div class="timeline-item" data-day="1 DAY">
-                <h3>Day Before</h3>
-                <ul>
-                    <li><strong>Clear liquids only</strong>—no solid food</li>
-                    <li>OK: water, clear broth, tea, coffee (no milk), sports drinks, Jell-O (no red/purple)</li>
-                    <li>NOT OK: milk, juice with pulp, anything red/purple</li>
-                    <li>Start drinking prep solution as directed (usually afternoon/evening)</li>
-                    <li>Stay near a bathroom—you'll need it</li>
-                </ul>
-            </div>
-            <div class="timeline-item" data-day="DAY OF">
-                <h3>Procedure Day</h3>
-                <ul>
-                    <li>Finish any remaining prep (split-dose prep often has morning portion)</li>
-                    <li>Nothing by mouth 2-4 hours before (as directed)</li>
-                    <li>Arrange a ride—you'll be sedated</li>
-                    <li>Wear comfortable, loose clothing</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="procedure">
-        <h2>What Happens During</h2>
-        <div class="step-card">
-            <h3><span class="num">1</span> Check-In & Prep</h3>
-            <p>You'll change into a gown, answer medical questions, and have an IV placed for sedation.</p>
-        </div>
-        <div class="step-card">
-            <h3><span class="num">2</span> Sedation</h3>
-            <p>Most people receive "twilight sedation"—you're drowsy and comfortable, may drift in and out, and won't remember much. Some centers offer propofol (deeper sedation).</p>
-        </div>
-        <div class="step-card">
-            <h3><span class="num">3</span> The Procedure</h3>
-            <p>A flexible scope with a camera examines your entire colon. Air is used to expand the colon for better viewing. Takes 20-60 minutes depending on findings.</p>
-        </div>
-        <div class="step-card">
-            <h3><span class="num">4</span> Polyp Removal</h3>
-            <p>If polyps are found, they're typically removed immediately (polypectomy). This is painless and why colonoscopy is both diagnostic AND preventive.</p>
-        </div>
-        <div class="step-card">
-            <h3><span class="num">5</span> Recovery</h3>
-            <p>30-60 minutes to wake up. You may feel gassy or crampy (the air). Results are often shared before you leave; polyp biopsy results take days.</p>
-        </div>
-    </section>
-
-    <div class="chat-widget">
-        <button class="chat-btn" onclick="toggleChat()" aria-label="Open chat">
-            <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
-        </button>
-        <div class="chat-panel" id="chatPanel">
+        <div class="hero-eyebrow">Colon Cancer Screening Guide</div>
+        <h1>Colonoscopy: The Gold Standard for Colon Cancer Prevention</h1>
+        <p class="hero-subtitle">A colonoscopy is a 20-60 minute outpatient procedure that examines your entire colon for polyps and cancer. It's the only screening test that can both detect and prevent colorectal cancer by removing precancerous growths during the same exam.</p>
+        
+        <div class="chat-box" id="ask">
             <div class="chat-header">
-                <h4>Ask about colonoscopy</h4>
-                <button class="chat-close" onclick="toggleChat()">×</button>
+                <div class="chat-status"></div>
+                <span class="chat-header-text">Ask about colonoscopy<span class="chat-header-sub">— answers from medical guidelines & research</span></span>
             </div>
-            <div class="chat-messages" id="chatMessages">
-                <div class="chat-message bot">Hi! I can answer questions about colonoscopy prep, the procedure, and what to expect. What would you like to know?</div>
+            <div id="chat-messages" class="chat-messages active">
+                <div class="chat-message assistant">
+                    <div class="chat-avatar">MD</div>
+                    <div class="chat-bubble"><p>I can answer questions about colonoscopy procedures based on clinical guidelines and medical research. Ask me about preparation, what happens during the procedure, or how to interpret results.</p></div>
+                </div>
             </div>
-            <div class="chat-input">
-                <input type="text" id="chatInput" placeholder="Type your question..." onkeypress="if(event.key==='Enter')sendMessage()">
-                <button onclick="sendMessage()">Send</button>
+            <div class="chat-input-area">
+                <textarea id="qa-input" class="chat-input" placeholder="Ask about colonoscopy..." rows="1" style="resize:none;"></textarea>
+                <button id="qa-submit" class="chat-send" onclick="askQuestion()">
+                    <span>Send</span>
+                </button>
+            </div>
+            <div id="qa-suggestions" class="qa-suggestions">
+                <span onclick="askSuggestion(this)">How do I prepare for colonoscopy?</span>
+                <span onclick="askSuggestion(this)">Does it hurt?</span>
+                <span onclick="askSuggestion(this)">What if they find polyps?</span>
+            </div>
+            <div class="chat-note">Answers based on clinical guidelines and peer-reviewed research. Always consult your healthcare provider for personalized medical advice.</div>
+        </div>
+    </section>
+
+    <section class="stats-bar">
+        <div class="stats-inner">
+            <div class="stat">
+                <div class="stat-number">68%</div>
+                <div class="stat-label">Reduction in colorectal cancer deaths with regular screening</div>
+                <div class="stat-source">NEJM, 2022</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">20-60 min</div>
+                <div class="stat-label">Typical procedure duration</div>
+                <div class="stat-source">ASGE Guidelines</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">Age 45</div>
+                <div class="stat-label">Recommended screening start age for average-risk adults</div>
+                <div class="stat-source">USPSTF, 2021</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">10 years</div>
+                <div class="stat-label">Interval between screenings with normal results</div>
+                <div class="stat-source">ACS Guidelines</div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <main>
+        <div class="info-box">
+            <h3>🎯 Why Colonoscopy Matters</h3>
+            <p>Colorectal cancer is the third most common cancer and second leading cause of cancer death in the U.S. However, it's also one of the most preventable cancers. Colonoscopy can find and remove polyps before they become cancerous, effectively preventing cancer from developing.</p>
+        </div>
+
+        <section class="section">
+            <div class="section-label">Overview</div>
+            <h2>What is a Colonoscopy?</h2>
+            <p>A colonoscopy is a procedure that allows your doctor to examine the entire lining of your colon (large intestine) and rectum using a long, flexible tube called a colonoscope. The scope has a tiny camera and light at the end, allowing the doctor to see the colon's interior on a video monitor.</p>
+            <p>During the procedure, the doctor can:</p>
+            <ul style="margin-left: 24px; margin-top: 16px; color: var(--text-secondary); line-height: 1.8;">
+                <li><strong>Detect polyps</strong> — small growths on the colon lining that may become cancerous over time</li>
+                <li><strong>Remove polyps</strong> — most polyps can be removed during the same procedure using special tools</li>
+                <li><strong>Take biopsies</strong> — collect tissue samples from suspicious areas for laboratory analysis</li>
+                <li><strong>Identify inflammation</strong> — diagnose conditions like inflammatory bowel disease (Crohn's, ulcerative colitis)</li>
+                <li><strong>Find cancer</strong> — detect colorectal cancer at early, more treatable stages</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <div class="section-label">Screening Guidelines</div>
+            <h2>When Should I Get a Colonoscopy?</h2>
+            <p>The U.S. Preventive Services Task Force (USPSTF) and American Cancer Society recommend the following screening schedules:</p>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Risk Level</th>
+                        <th>Start Age</th>
+                        <th>Frequency</th>
+                        <th>End Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Average risk</strong></td>
+                        <td>Age 45</td>
+                        <td>Every 10 years</td>
+                        <td>Age 75 (individual decision 76-85)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Family history</strong> (1 first-degree relative with CRC or advanced polyps)</td>
+                        <td>Age 40 or 10 years before relative's diagnosis</td>
+                        <td>Every 5 years</td>
+                        <td>Based on findings</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Personal history of polyps</strong></td>
+                        <td>After initial finding</td>
+                        <td>Every 3-5 years</td>
+                        <td>Based on findings</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Inflammatory bowel disease</strong></td>
+                        <td>8 years after diagnosis</td>
+                        <td>Every 1-2 years</td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lynch syndrome or FAP</strong></td>
+                        <td>Age 20-25</td>
+                        <td>Every 1-2 years</td>
+                        <td>Ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 12px;">CRC = Colorectal cancer; FAP = Familial adenomatous polyposis. Guidelines based on USPSTF 2021 and ACG 2021 recommendations.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-label">The Procedure</div>
+            <h2>What Happens During a Colonoscopy?</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">Before Arrival</div>
+                    <div class="timeline-title">Bowel Preparation (1-2 days before)</div>
+                    <div class="timeline-content">You'll follow a clear liquid diet and drink a bowel prep solution to completely empty your colon. This is the most challenging part for most patients, but it's essential for a successful exam.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">At the Facility</div>
+                    <div class="timeline-title">Check-in & IV Placement</div>
+                    <div class="timeline-content">You'll change into a hospital gown, answer health questions, and have an IV placed for sedation. A nurse will review your medications and prep completion.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Procedure Room</div>
+                    <div class="timeline-title">Sedation & Examination</div>
+                    <div class="timeline-content">You'll receive sedation through your IV that makes you drowsy and relaxed. Many patients don't remember the procedure. The doctor gently inserts the scope and examines your entire colon, removing any polyps found.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">Recovery</div>
+                    <div class="timeline-title">Wake Up & Results (30-60 minutes)</div>
+                    <div class="timeline-content">You'll rest in a recovery area until the sedation wears off. The doctor will share preliminary findings before you leave. Someone must drive you home.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-label">Preparation</div>
+            <h2>How to Prepare for Your Colonoscopy</h2>
+            <p>Proper preparation is crucial for a successful colonoscopy. A clean colon allows the doctor to see the entire lining clearly and detect any abnormalities. Poor preparation may require a repeat procedure.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">🍽️</div>
+                    <h3>Diet Changes</h3>
+                    <p>Start a low-fiber diet 3-5 days before. Switch to clear liquids only the day before your procedure. Avoid red/purple drinks that can be mistaken for blood.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💊</div>
+                    <h3>Bowel Prep Solution</h3>
+                    <p>Your doctor will prescribe a laxative solution (like GoLYTELY, MiraLAX, or SUPREP). Follow the split-dose schedule: half the evening before, half the morning of.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💉</div>
+                    <h3>Medications</h3>
+                    <p>Tell your doctor about all medications, especially blood thinners, diabetes medications, and iron supplements. Some may need to be stopped temporarily.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🚗</div>
+                    <h3>Arrange a Ride</h3>
+                    <p>You cannot drive for 24 hours after sedation. Arrange for someone to drive you home and ideally stay with you for a few hours afterward.</p>
+                </div>
+            </div>
+            
+            <p style="margin-top: 24px;"><a href="/prep.html" style="color: var(--accent); font-weight: 600;">View our complete prep guide →</a></p>
+        </section>
+
+        <section class="section">
+            <div class="section-label">Risks & Safety</div>
+            <h2>Is Colonoscopy Safe?</h2>
+            <p>Colonoscopy is generally a very safe procedure. However, like any medical procedure, it carries some risks. Understanding these risks can help you have an informed discussion with your doctor.</p>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Risk</th>
+                        <th>Frequency</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bleeding</strong></td>
+                        <td>1 in 500-1,000</td>
+                        <td>More common after polyp removal. Usually minor and stops on its own.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Perforation</strong></td>
+                        <td>1 in 1,000-2,000</td>
+                        <td>A tear in the colon wall. May require surgery to repair.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sedation complications</strong></td>
+                        <td>Rare</td>
+                        <td>Breathing problems or reactions to medication. Monitored throughout.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Post-polypectomy syndrome</strong></td>
+                        <td>Rare</td>
+                        <td>Abdominal pain and fever after polyp removal. Usually resolves with rest.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="warning-box">
+                <h3>⚠️ When to Seek Immediate Care</h3>
+                <p>Contact your doctor or go to the ER if you experience: severe abdominal pain, persistent bleeding (more than a tablespoon), fever over 101°F, or inability to pass gas or have a bowel movement for more than 24 hours after the procedure.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-label">Results</div>
+            <h2>Understanding Your Results</h2>
+            <p>Your doctor will provide preliminary results before you leave the facility. If polyps were removed or biopsies taken, final pathology results typically take 1-2 weeks.</p>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icon">✅</div>
+                    <h3>Normal Result</h3>
+                    <p>No polyps or abnormalities found. Repeat screening in 10 years for average-risk individuals.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔬</div>
+                    <h3>Polyps Found</h3>
+                    <p>Most polyps are removed during the procedure. Pathology determines if they're benign, precancerous, or cancerous.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📋</div>
+                    <h3>Hyperplastic Polyps</h3>
+                    <p>Small, benign growths with very low cancer risk. Usually no change to screening schedule.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Adenomatous Polyps</h3>
+                    <p>Precancerous polyps that can develop into cancer. Follow-up colonoscopy typically in 3-5 years.</p>
+                </div>
+            </div>
+            
+            <p style="margin-top: 24px;"><a href="/results.html" style="color: var(--accent); font-weight: 600;">Learn more about interpreting results →</a></p>
+        </section>
+
+        <section class="section">
+            <div class="section-label">Alternatives</div>
+            <h2>Other Colon Cancer Screening Options</h2>
+            <p>While colonoscopy is the gold standard, other FDA-approved screening tests are available. These may be appropriate for people who cannot or prefer not to have a colonoscopy.</p>
+            
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Test</th>
+                        <th>How It Works</th>
+                        <th>Frequency</th>
+                        <th>Key Consideration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Colonoscopy</strong></td>
+                        <td>Visual exam of entire colon</td>
+                        <td>Every 10 years</td>
+                        <td>Can detect AND remove polyps</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FIT (Fecal Immunochemical Test)</strong></td>
+                        <td>Detects blood in stool</td>
+                        <td>Every year</td>
+                        <td>Easy at-home test; positive needs colonoscopy</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cologuard (FIT-DNA)</strong></td>
+                        <td>Detects blood and DNA markers</td>
+                        <td>Every 3 years</td>
+                        <td>Higher sensitivity than FIT; positive needs colonoscopy</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CT Colonography</strong></td>
+                        <td>CT scan creates 3D images</td>
+                        <td>Every 5 years</td>
+                        <td>No sedation; still requires bowel prep</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Flexible Sigmoidoscopy</strong></td>
+                        <td>Examines lower third of colon</td>
+                        <td>Every 5 years</td>
+                        <td>Less invasive; doesn't see entire colon</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 13px; color: var(--text-muted); margin-top: 12px;">The best screening test is the one you'll actually complete. Talk to your doctor about which option is right for you.</p>
+            
+            <p style="margin-top: 24px;"><a href="/alternatives.html" style="color: var(--accent); font-weight: 600;">Compare all screening options →</a></p>
+        </section>
+
+        <section class="section">
+            <div class="section-label">Frequently Asked Questions</div>
+            <h2>Common Questions About Colonoscopy</h2>
+            
+            <div style="margin-top: 24px;">
+                <h3 style="font-family: var(--font-display); font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;">Is colonoscopy painful?</h3>
+                <p>Most patients experience little to no pain because sedation is used. You'll receive IV medication that makes you drowsy and relaxed — many patients don't remember the procedure at all. Some mild cramping or bloating afterward is normal and resolves within hours.</p>
+            </div>
+            
+            <div style="margin-top: 24px;">
+                <h3 style="font-family: var(--font-display); font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;">What's the hardest part of the prep?</h3>
+                <p>Most patients find drinking the bowel prep solution and staying near a bathroom to be the most challenging aspects. Tips: chill the solution, use a straw, suck on lemon drops between sips, and start early in the evening so you can get some sleep.</p>
+            </div>
+            
+            <div style="margin-top: 24px;">
+                <h3 style="font-family: var(--font-display); font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;">Can I go to work the next day?</h3>
+                <p>Most people can return to normal activities the day after their colonoscopy. However, plan to take the rest of your procedure day off, as sedation can cause drowsiness and impaired judgment for 24 hours. Don't drive, make important decisions, or sign legal documents.</p>
+            </div>
+            
+            <div style="margin-top: 24px;">
+                <h3 style="font-family: var(--font-display); font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px;">What if I'm scared or anxious?</h3>
+                <p>Anxiety is completely normal. Talk to your doctor about your concerns — they may offer anti-anxiety medication before the procedure. Remember: the sedation works quickly, and most patients report the experience was easier than expected. The peace of mind from screening is worth it.</p>
+            </div>
+            
+            <p style="margin-top: 32px;"><a href="/faq.html" style="color: var(--accent); font-weight: 600;">View all frequently asked questions →</a></p>
+        </section>
+
+        <div class="review-date">
+            <p><strong>Last reviewed:</strong> February 2026 by thrive.md Clinical Advisory Team</p>
+            <p style="margin-top: 8px;">Information based on USPSTF, American Cancer Society, and ACG guidelines.</p>
+        </div>
+    </main>
 
     <footer>
         <div class="footer-inner">
             <div class="footer-brand">
                 <a href="/" class="logo">colonoscopy<span>.md</span></a>
-                <p>Evidence-based colonoscopy information. Not a substitute for medical advice.</p>
+                <p>Part of the <a href="https://thrive.md" style="color: var(--accent); text-decoration: none;">thrive.md</a> health network. Evidence-based medical information, reviewed by healthcare professionals.</p>
             </div>
             <div class="footer-links">
-                <h4>Learn</h4>
-                <a href="/prep-tips.html">Prep Tips</a>
+                <h4>Information</h4>
+                <a href="/prep.html">Prep Guide</a>
+                <a href="/what-to-expect.html">What to Expect</a>
                 <a href="/results.html">Understanding Results</a>
-                <a href="/alternatives.html">Screening Alternatives</a>
+                <a href="/faq.html">FAQ</a>
             </div>
             <div class="footer-links">
                 <h4>Resources</h4>
-                <a href="/blog.html">Articles</a>
-                <a href="/resources.html">Resources</a>
+                <a href="/alternatives.html">Screening Alternatives</a>
+                <a href="https://www.cancer.org/cancer/colon-rectal-cancer.html" target="_blank" rel="noopener">American Cancer Society</a>
+                <a href="https://www.asge.org/home/for-patients/patient-information" target="_blank" rel="noopener">ASGE Patient Info</a>
             </div>
             <div class="footer-links">
-                <h4>Network</h4>
-                <a href="https://thrive.md">thrive.md</a>
-                <a href="https://mammogram.md">mammogram.md</a>
+                <h4>About</h4>
+                <a href="https://thrive.md/editorial-policy.html">Editorial Policy</a>
+                <a href="https://thrive.md/medical-review.html">Medical Review</a>
+                <a href="mailto:hello@thrive.md">Contact</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2026 colonoscopy.md · Part of the <a href="https://thrive.md">thrive.md</a> health network</p>
+            <p>© 2026 colonoscopy.md · A <a href="https://thrive.md" style="color: var(--text-muted); text-decoration: none;">thrive.md</a> property</p>
+            <p><strong>Medical Disclaimer:</strong> This site provides information, not medical advice. Always consult your healthcare provider.</p>
         </div>
     </footer>
 
     <script>
+        const QA_API = 'https://md-qa.md-health.workers.dev/ask';
+        const SESSION_ID = 'session_' + Math.random().toString(36).substr(2, 9);
         const TOPIC = 'colonoscopy';
-        function toggleChat() {
-            document.getElementById('chatPanel').classList.toggle('open');
+        
+        let splitModeActive = false;
+        
+        function getActiveMessagesDiv() {
+            return splitModeActive 
+                ? document.getElementById('panel-messages')
+                : document.getElementById('chat-messages');
         }
-        async function sendMessage() {
-            const input = document.getElementById('chatInput');
-            const messages = document.getElementById('chatMessages');
+        
+        function getActiveInput() {
+            return splitModeActive
+                ? document.getElementById('panel-input')
+                : document.getElementById('qa-input');
+        }
+        
+        function activateSplitMode() {
+            if (splitModeActive) return;
+            splitModeActive = true;
+            
+            document.body.classList.add('split-mode');
+            const panel = document.getElementById('chat-panel');
+            panel.style.display = 'flex';
+            
+            const heroMessages = document.getElementById('chat-messages');
+            const panelMessages = document.getElementById('panel-messages');
+            panelMessages.innerHTML = heroMessages.innerHTML;
+            panelMessages.classList.add('active');
+            
+            document.getElementById('panel-input').focus();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        function closeSplitMode() {
+            splitModeActive = false;
+            document.body.classList.remove('split-mode');
+            document.getElementById('chat-panel').style.display = 'none';
+            
+            const panelMessages = document.getElementById('panel-messages');
+            const heroMessages = document.getElementById('chat-messages');
+            heroMessages.innerHTML = panelMessages.innerHTML;
+            heroMessages.classList.add('active');
+        }
+
+        function addMessage(text, isUser = false) {
+            const messagesDiv = getActiveMessagesDiv();
+            messagesDiv.classList.add('active');
+            
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `chat-message ${isUser ? 'user' : 'assistant'}`;
+            msgDiv.innerHTML = `
+                <div class="chat-avatar">${isUser ? 'You' : 'MD'}</div>
+                <div class="chat-bubble"><p>${text}</p></div>
+            `;
+            
+            messagesDiv.appendChild(msgDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            return msgDiv;
+        }
+
+        async function askQuestion() {
+            const input = getActiveInput();
             const question = input.value.trim();
+            
             if (!question) return;
-            messages.innerHTML += `<div class="chat-message user">${question}</div>`;
+            
+            const suggestions = document.getElementById('qa-suggestions');
+            if (suggestions) suggestions.style.display = 'none';
+            
+            addMessage(question, true);
             input.value = '';
-            const botMsg = document.createElement('div');
-            botMsg.className = 'chat-message bot';
-            botMsg.textContent = '...';
-            messages.appendChild(botMsg);
-            messages.scrollTop = messages.scrollHeight;
+            
+            if (!splitModeActive) {
+                activateSplitMode();
+            }
+            
+            const responseMsg = addMessage('Thinking...');
+            
             try {
-                const response = await fetch('https://md-qa.md-health.workers.dev/ask', {
+                const res = await fetch(QA_API, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ question, topic: TOPIC })
+                    body: JSON.stringify({ question, topic: TOPIC, sessionId: SESSION_ID }),
                 });
-                const reader = response.body.getReader();
+                
+                if (!res.ok) {
+                    const error = await res.json();
+                    throw new Error(error.error || 'Request failed');
+                }
+                
+                // Smooth streaming with typewriter effect
+                const reader = res.body.getReader();
                 const decoder = new TextDecoder();
                 let fullText = '';
+                let displayedText = '';
+                let renderQueue = [];
+                let isRendering = false;
+                const CHARS_PER_TICK = 3;
+                const TICK_MS = 16;
+                
+                function renderLoop() {
+                    if (renderQueue.length === 0) {
+                        isRendering = false;
+                        return;
+                    }
+                    const batch = renderQueue.splice(0, CHARS_PER_TICK).join('');
+                    displayedText += batch;
+                    responseMsg.querySelector('p').textContent = displayedText;
+                    getActiveMessagesDiv().scrollTop = getActiveMessagesDiv().scrollHeight;
+                    requestAnimationFrame(() => setTimeout(renderLoop, TICK_MS));
+                }
+                
+                function queueText(text) {
+                    for (const char of text) {
+                        renderQueue.push(char);
+                    }
+                    if (!isRendering) {
+                        isRendering = true;
+                        renderLoop();
+                    }
+                }
+                
                 while (true) {
                     const { done, value } = await reader.read();
                     if (done) break;
+                    
                     const chunk = decoder.decode(value);
                     const lines = chunk.split('\n');
+                    
                     for (const line of lines) {
-                        if (line.startsWith('data: ') && !line.includes('[DONE]')) {
+                        if (line.startsWith('data: ')) {
+                            const data = line.slice(6);
+                            if (data === '[DONE]') continue;
+                            
                             try {
-                                const data = JSON.parse(line.slice(6));
-                                if (data.text) { fullText += data.text; botMsg.textContent = fullText; }
+                                const parsed = JSON.parse(data);
+                                if (parsed.text) {
+                                    fullText += parsed.text;
+                                    queueText(parsed.text);
+                                }
                             } catch (e) {}
                         }
                     }
                 }
-            } catch (error) {
-                botMsg.textContent = 'Sorry, I encountered an error. Please try again.';
+                
+                await new Promise(resolve => {
+                    const checkDone = () => {
+                        if (renderQueue.length === 0 && !isRendering) {
+                            resolve();
+                        } else {
+                            setTimeout(checkDone, 50);
+                        }
+                    };
+                    checkDone();
+                });
+                
+                const formatted = fullText.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+                responseMsg.querySelector('p').innerHTML = formatted;
+                
+            } catch (err) {
+                responseMsg.querySelector('p').innerHTML = `<span style="color: #ef4444;">Sorry, something went wrong.</span>`;
             }
-            messages.scrollTop = messages.scrollHeight;
+            
+            getActiveMessagesDiv().scrollTop = getActiveMessagesDiv().scrollHeight;
         }
+        
+        function askSuggestion(el) {
+            document.getElementById('qa-input').value = el.textContent;
+            askQuestion();
+        }
+        
+        document.getElementById('qa-input').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                askQuestion();
+            }
+        });
+        
+        document.getElementById('panel-input').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                askQuestion();
+            }
+        });
     </script>
-<p style="text-align:center;color:#64748b;font-size:12px;padding:20px;">Last reviewed: February 2026</p></body>
+</body>
 </html>
