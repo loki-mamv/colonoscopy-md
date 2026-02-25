@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://colonoscopy.md/blog/colonoscopy-prep-complete-guide/#article"},
           "wordCount": "832",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Does the colonoscopy itself hurt?", "acceptedAnswer": {"@type": "Answer", "text": "No. Under sedation, the procedure is painless \u2014 most people sleep through it entirely. Without sedation (which some people choose), there may be pressure or cramping when the scope navigates turns in the colon, but it's generally tolerable. The overwhelming majority of patients say the prep was far worse than the procedure."}}, {"@type": "Question", "name": "What if the prep doesn't seem to be working?", "acceptedAnswer": {"@type": "Answer", "text": "Give it time \u2014 effects can take 30-60 minutes to start. Movement (walking around) can help stimulate things. If you're still not seeing results after 2 hours, call your doctor's prep line. Do NOT take extra prep without medical guidance."}}, {"@type": "Question", "name": "Are there alternatives to colonoscopy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but with tradeoffs. Stool-based tests (FIT yearly, Cologuard every 3 years) are non-invasive but miss some polyps and can't remove them \u2014 a positive result still requires a colonoscopy. CT colonography (virtual colonoscopy) is another option but also can't remove polyps. Colonoscopy remains preferred because of its dual diagnostic and therapeutic capability."}}, {"@type": "Question", "name": "How often do they find polyps?", "acceptedAnswer": {"@type": "Answer", "text": "Polyps are found in 25-40% of screening colonoscopies in adults over 50. Most are benign adenomas that are removed easily. Finding and removing them is exactly the point \u2014 it prevents those polyps from developing into cancer over the next 10-15 years."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -251,6 +256,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

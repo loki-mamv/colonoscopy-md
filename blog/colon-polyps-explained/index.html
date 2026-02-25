@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://colonoscopy.md/blog/colon-polyps-explained/#article"},
           "wordCount": "734",
           "lastReviewed": "2026-02-19",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Do colon polyps always turn into cancer?", "acceptedAnswer": {"@type": "Answer", "text": "No. Most colon polyps never become cancer. Hyperplastic polyps (the most common type) have virtually zero cancer risk. Even adenomatous polyps (the precancerous type) take 10-15 years to potentially develop into cancer, and most never do. The purpose of colonoscopy is to remove them before they ever get the chance."}}, {"@type": "Question", "name": "How worried should I be about polyp biopsy results?", "acceptedAnswer": {"@type": "Answer", "text": "Finding and removing polyps is actually a success \u2014 it means the screening worked as intended. Even advanced adenomas with high-grade dysplasia, if completely removed during colonoscopy, usually require only closer surveillance (repeat colonoscopy in 3 years), not cancer treatment. colonoscopy.md encourages viewing polyp removal as cancer prevention, not a cancer scare."}}, {"@type": "Question", "name": "Can polyps grow back after removal?", "acceptedAnswer": {"@type": "Answer", "text": "The specific polyp that was removed won't grow back if it was completely excised. However, people who develop polyps have a higher-than-average tendency to grow new ones elsewhere in the colon. This is why follow-up colonoscopies are scheduled \u2014 to catch new polyps early."}}, {"@type": "Question", "name": "What lifestyle changes reduce polyp risk?", "acceptedAnswer": {"@type": "Answer", "text": "Evidence supports: maintaining a healthy weight, regular exercise, high-fiber diet rich in fruits and vegetables, limiting red and processed meat, not smoking, moderate alcohol intake, and adequate calcium and vitamin D. Aspirin may reduce polyp recurrence in some patients, but discuss this with your doctor due to bleeding risks."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

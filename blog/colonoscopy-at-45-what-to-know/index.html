@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://colonoscopy.md/blog/colonoscopy-at-45-what-to-know/#article"},
           "wordCount": "852",
           "lastReviewed": "2026-02-17",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Is a colonoscopy really necessary at 45?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. All major medical organizations recommend colorectal cancer screening beginning at 45 for average-risk adults. Colorectal cancer rates in people under 50 are rising, and early detection through screening dramatically improves survival. colonoscopy.md strongly recommends not delaying this screening."}}, {"@type": "Question", "name": "Is Cologuard as good as a colonoscopy?", "acceptedAnswer": {"@type": "Answer", "text": "Cologuard is a good option for people who absolutely won't do a colonoscopy, but it's not equivalent. It detects about 92% of cancers but only 42% of advanced precancerous polyps \u2014 and it can't remove anything it finds. A positive Cologuard still requires a colonoscopy. For comprehensive screening, colonoscopy remains the gold standard."}}, {"@type": "Question", "name": "How often do you need a colonoscopy?", "acceptedAnswer": {"@type": "Answer", "text": "If your first colonoscopy at 45 is completely normal (no polyps), your next one is in 10 years at age 55. If polyps are found and removed, follow-up is typically in 3-5 years depending on the type, size, and number of polyps. Your gastroenterologist will set the specific interval."}}, {"@type": "Question", "name": "Does a colonoscopy hurt?", "acceptedAnswer": {"@type": "Answer", "text": "No. You're sedated during the procedure and won't feel it. Most patients report no memory of the procedure at all (especially with propofol sedation). Some people experience mild bloating or cramping afterward from the air used during the exam, but this passes quickly. The bowel prep is the uncomfortable part, not the procedure itself."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://colonoscopy.md/blog/colonoscopy-prep-tips/#article"},
           "wordCount": "830",
           "lastReviewed": "2026-02-18",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "What's the easiest colonoscopy prep?", "acceptedAnswer": {"@type": "Answer", "text": "Sutab (tablet-based prep) is the easiest for people who struggle with drinking prep solutions \u2014 it's 24 tablets taken with water. For liquid preps, Plenvu and Suprep are lower-volume options that most patients tolerate better than the traditional 4-liter GoLYTELY. Ask your doctor which is appropriate for your situation."}}, {"@type": "Question", "name": "What if I can't finish the prep?", "acceptedAnswer": {"@type": "Answer", "text": "Try to finish as much as possible. If nausea is the issue, take a 30-minute break, walk around, and resume. If you truly can't finish, call your doctor's office \u2014 they may have you complete the second dose in the morning, switch to a different prep, or adjust timing. Don't skip the prep entirely; even partial prep is better than none."}}, {"@type": "Question", "name": "Can I eat the morning of my colonoscopy?", "acceptedAnswer": {"@type": "Answer", "text": "No solid food. Your doctor will specify a clear-liquid-only window and a final nothing-by-mouth cutoff (usually 2-4 hours before the procedure). You'll take the second half of your split-dose prep early in the morning, and you may be allowed clear liquids up to 2 hours before arrival. Follow your specific instructions exactly."}}, {"@type": "Question", "name": "Why can't I have red or purple liquids?", "acceptedAnswer": {"@type": "Answer", "text": "Red and purple dyes can coat the colon lining and look similar to blood or inflammation, potentially causing false positive findings during the procedure. Stick to yellow, green, and clear liquids to ensure the doctor has an unobstructed view."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

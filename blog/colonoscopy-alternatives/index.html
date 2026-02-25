@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://colonoscopy.md/blog/colonoscopy-alternatives/#article"},
           "wordCount": "716",
           "lastReviewed": "2026-02-20",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Is Cologuard as good as a colonoscopy?", "acceptedAnswer": {"@type": "Answer", "text": "Not quite. Cologuard detects 92% of colorectal cancers (vs. 95%+ for colonoscopy) but only 42% of advanced precancerous polyps (vs. 95%+ for colonoscopy). Most importantly, Cologuard can only detect problems \u2014 colonoscopy can detect and remove them in the same procedure. Cologuard is a good option for people who won't do a colonoscopy, but it's not equivalent."}}, {"@type": "Question", "name": "Can a blood test replace a colonoscopy?", "acceptedAnswer": {"@type": "Answer", "text": "The Shield blood test (approved 2024) is the most convenient option, requiring only a blood draw. However, it detects only 83% of cancers and just 13% of advanced polyps. colonoscopy.md considers it a last resort for people who refuse all other screening methods \u2014 any screening is better than none, but blood tests are the least sensitive option."}}, {"@type": "Question", "name": "How much does screening cost with insurance?", "acceptedAnswer": {"@type": "Answer", "text": "Under the ACA, colonoscopy and other recommended screening tests are covered at $0 out-of-pocket for preventive screening. However, if a screening Cologuard or FIT is positive and you need a follow-up colonoscopy, some insurers may classify it as 'diagnostic' and apply deductibles/copays. Check with your insurer about this policy."}}, {"@type": "Question", "name": "What if I'm scared of the colonoscopy procedure?", "acceptedAnswer": {"@type": "Answer", "text": "You'll be sedated and won't feel or remember the procedure. With propofol sedation, most patients say they fell asleep and woke up not realizing it had happened. The prep (day before) is the uncomfortable part, not the procedure itself. If anxiety is the barrier, talk to your doctor about anti-anxiety medication for the prep day."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

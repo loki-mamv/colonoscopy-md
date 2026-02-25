@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://colonoscopy.md/blog/colorectal-cancer-young-adults/#article"},
           "wordCount": "729",
           "lastReviewed": "2026-02-24",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Can people in their 20s and 30s get colon cancer?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. While still uncommon, colorectal cancer in adults under 40 is the fastest-growing segment. Cases in people in their 20s and 30s have increased significantly. Any young adult with persistent GI symptoms \u2014 especially rectal bleeding, unexplained weight loss, or changes in bowel habits \u2014 should be evaluated."}}, {"@type": "Question", "name": "Should I get a colonoscopy before 45 if I have no family history?", "acceptedAnswer": {"@type": "Answer", "text": "The standard recommendation is to begin screening at 45 for average-risk individuals without family history. However, if you have symptoms (rectal bleeding, persistent bowel changes, unexplained anemia), a colonoscopy is warranted at any age regardless of family history. colonoscopy.md recommends not waiting if you have concerning symptoms."}}, {"@type": "Question", "name": "Why are young people getting more colon cancer?", "acceptedAnswer": {"@type": "Answer", "text": "The exact cause isn't fully understood, but likely involves a combination of rising obesity rates, ultra-processed food consumption, gut microbiome changes, sedentary lifestyles, and possibly environmental exposures. Research is ongoing, with large studies tracking birth cohort effects to identify specific drivers."}}, {"@type": "Question", "name": "Is young-onset colorectal cancer more aggressive?", "acceptedAnswer": {"@type": "Answer", "text": "Young-onset CRC is more likely to be diagnosed at a later stage (because it isn't caught by screening), which worsens outcomes. Some studies suggest biological differences \u2014 more signet ring cell and mucinous histologies \u2014 but when matched by stage, survival rates are similar or slightly better in younger patients compared to older ones."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>
