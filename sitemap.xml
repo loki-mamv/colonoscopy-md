@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://colonoscopy.md/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://colonoscopy.md/blog/</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://colonoscopy.md/blog/colonoscopy-prep-complete-guide/</loc><lastmod>2026-02-14</lastmod><priority>0.7</priority></url>
-  <url><loc>https://colonoscopy.md/blog/colonoscopy-at-45-what-to-know/</loc><lastmod>2026-02-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://colonoscopy.md/blog/colonoscopy-prep-tips/</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/</loc><lastmod>2026-08-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://colonoscopy.md/blog/</loc><lastmod>2026-08-21</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colonoscopy.md/about.html</loc><lastmod>2026-02-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colonoscopy.md/alternatives.html</loc><lastmod>2026-02-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colonoscopy.md/faq.html</loc><lastmod>2026-02-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colonoscopy.md/prep.html</loc><lastmod>2026-02-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colonoscopy.md/results.html</loc><lastmod>2026-02-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colonoscopy.md/what-to-expect.html</loc><lastmod>2026-02-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://colonoscopy.md/blog/colon-cancer-prevention.html</loc><lastmod>2026-08-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://colonoscopy.md/blog/colon-polyps-explained/</loc><lastmod>2026-02-19</lastmod><priority>0.7</priority></url>
   <url><loc>https://colonoscopy.md/blog/colonoscopy-alternatives/</loc><lastmod>2026-02-20</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/colonoscopy-at-45-what-to-know/</loc><lastmod>2026-02-17</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/colonoscopy-interval-after-polyps/</loc><lastmod>2026-08-21</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/colonoscopy-prep-complete-guide/</loc><lastmod>2026-02-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/colonoscopy-prep-guide.html</loc><lastmod>2026-08-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/colonoscopy-prep-tips/</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/colonoscopy-recovery-tips.html</loc><lastmod>2026-08-14</lastmod><priority>0.7</priority></url>
   <url><loc>https://colonoscopy.md/blog/colorectal-cancer-young-adults/</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
   <url><loc>https://colonoscopy.md/blog/how-much-does-a-colonoscopy-cost/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://colonoscopy.md/blog/colonoscopy-interval-after-polyps/</loc><lastmod>2026-08-21</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/polyp-types-explained.html</loc><lastmod>2026-08-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/screening-age-guidelines.html</loc><lastmod>2026-08-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://colonoscopy.md/blog/virtual-colonoscopy.html</loc><lastmod>2026-08-14</lastmod><priority>0.7</priority></url>
 </urlset>

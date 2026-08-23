@@ -62,107 +62,125 @@
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
+      "@type": "Organization",
+      "@id": "https://thrive.md/#organization",
+      "name": "thrive.md",
+      "url": "https://thrive.md",
+      "description": "A network of premium health domains providing evidence-based medical information."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://colonoscopy.md/#website",
+      "url": "https://colonoscopy.md",
+      "name": "colonoscopy.md — Colonoscopy & Colon Cancer Screening Guide",
+      "publisher": {
+        "@id": "https://thrive.md/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://thrive.md/#organization"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://colonoscopy.md/#webpage",
+      "name": "Colonoscopy Procedure Guide for Colon Cancer Screening",
+      "description": "Comprehensive guide to colonoscopy procedures including preparation, what to expect during the exam, results interpretation, and screening guidelines.",
+      "url": "https://colonoscopy.md/",
+      "isPartOf": {
+        "@id": "https://colonoscopy.md/#website"
+      },
+      "lastReviewed": "2026-02-06",
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Agustin Arrieta",
+        "jobTitle": "MD"
+      },
+      "mainEntity": {
+        "@type": "MedicalProcedure",
+        "name": "Colonoscopy",
+        "alternateName": [
+          "Colon exam",
+          "Lower GI endoscopy",
+          "Colorectal examination"
+        ],
+        "description": "A colonoscopy is an outpatient procedure in which a doctor uses a long, flexible, lighted tube called a colonoscope to examine the entire length of the colon and rectum for abnormalities such as polyps, inflammation, or cancer.",
+        "procedureType": "Diagnostic and screening procedure",
+        "bodyLocation": "Colon and rectum",
+        "preparation": "Bowel preparation (clear liquid diet and laxative solution) required 1-2 days before procedure",
+        "howPerformed": "A flexible colonoscope is inserted through the rectum and advanced through the colon while the patient is under sedation. The doctor examines the colon lining and may remove polyps or take biopsies.",
+        "followup": "Results typically available within 1-2 weeks if biopsies taken; immediate results for polyp removal and visual findings",
+        "indication": "Colon cancer screening, evaluation of GI symptoms, polyp removal, inflammatory bowel disease monitoring",
+        "contraindication": "Active colitis, recent myocardial infarction, known bowel perforation, severe coagulopathy"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          ".stat-number",
+          ".hero-subtitle"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://colonoscopy.md/#faq",
+      "mainEntity": [
         {
-          "@type": "Organization",
-          "@id": "https://thrive.md/#organization",
-          "name": "thrive.md",
-          "url": "https://thrive.md",
-          "description": "A network of premium health domains providing evidence-based medical information."
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://colonoscopy.md/#website",
-          "url": "https://colonoscopy.md",
-          "name": "colonoscopy.md — Colonoscopy & Colon Cancer Screening Guide",
-          "publisher": {"@id": "https://thrive.md/#organization"},
-          "isPartOf": {"@id": "https://thrive.md/#organization"}
-        },
-        {
-          "@type": "MedicalWebPage",
-          "@id": "https://colonoscopy.md/#webpage",
-          "name": "Colonoscopy Procedure Guide for Colon Cancer Screening",
-          "description": "Comprehensive guide to colonoscopy procedures including preparation, what to expect during the exam, results interpretation, and screening guidelines.",
-          "url": "https://colonoscopy.md/",
-          "isPartOf": {"@id": "https://colonoscopy.md/#website"},
-          "lastReviewed": "2026-02-06",
-          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"},
-          "mainEntity": {
-            "@type": "MedicalProcedure",
-            "name": "Colonoscopy",
-            "alternateName": ["Colon exam", "Lower GI endoscopy", "Colorectal examination"],
-            "description": "A colonoscopy is an outpatient procedure in which a doctor uses a long, flexible, lighted tube called a colonoscope to examine the entire length of the colon and rectum for abnormalities such as polyps, inflammation, or cancer.",
-            "procedureType": "Diagnostic and screening procedure",
-            "bodyLocation": "Colon and rectum",
-            "preparation": "Bowel preparation (clear liquid diet and laxative solution) required 1-2 days before procedure",
-            "howPerformed": "A flexible colonoscope is inserted through the rectum and advanced through the colon while the patient is under sedation. The doctor examines the colon lining and may remove polyps or take biopsies.",
-            "followup": "Results typically available within 1-2 weeks if biopsies taken; immediate results for polyp removal and visual findings",
-            "indication": "Colon cancer screening, evaluation of GI symptoms, polyp removal, inflammatory bowel disease monitoring",
-            "contraindication": "Active colitis, recent myocardial infarction, known bowel perforation, severe coagulopathy"
-          },
-          "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": ["h1", ".stat-number", ".hero-subtitle"]
+          "@type": "Question",
+          "name": "What is a colonoscopy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A colonoscopy is a procedure that allows a doctor to examine the entire lining of your colon (large intestine) and rectum using a long, flexible tube with a camera called a colonoscope. It is the gold standard for colon cancer screening and can both detect and prevent cancer by finding and removing precancerous polyps during the same procedure."
           }
         },
         {
-          "@type": "FAQPage",
-          "@id": "https://colonoscopy.md/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is a colonoscopy?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "A colonoscopy is a procedure that allows a doctor to examine the entire lining of your colon (large intestine) and rectum using a long, flexible tube with a camera called a colonoscope. It is the gold standard for colon cancer screening and can both detect and prevent cancer by finding and removing precancerous polyps during the same procedure."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "At what age should I get my first colonoscopy?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The U.S. Preventive Services Task Force (USPSTF) recommends that adults at average risk begin colon cancer screening at age 45 and continue through age 75. People with higher risk factors (family history of colon cancer, inflammatory bowel disease, certain genetic syndromes) may need to start screening earlier. Talk to your doctor about your personal risk factors."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is colonoscopy painful?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most patients experience little to no pain during a colonoscopy because sedation is used. You'll receive IV medication that makes you drowsy and relaxed; many patients don't remember the procedure at all. Some patients experience mild cramping or bloating afterward from the air used to inflate the colon, which typically resolves within a few hours."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How long does a colonoscopy take?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The colonoscopy procedure itself typically takes 20-60 minutes, depending on whether polyps need to be removed. However, plan for 2-3 hours total at the facility to allow time for check-in, preparation, the procedure, and recovery from sedation. You'll need someone to drive you home afterward."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What is the hardest part of colonoscopy prep?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most patients find the bowel preparation to be the most challenging part. This involves drinking a large volume of laxative solution (typically 2-4 liters) and following a clear liquid diet the day before. The prep causes frequent bowel movements to empty the colon completely. Tips to make it easier: chill the solution, use a straw, suck on hard candy between sips, and stay near a bathroom."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How often do I need a colonoscopy?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "For average-risk individuals with normal results, the recommended interval is every 10 years. If polyps are found, the interval may be shortened to 3-5 years depending on the number, size, and type of polyps. People with inflammatory bowel disease or certain genetic conditions may need screening every 1-2 years. Your doctor will recommend a specific interval based on your results and risk factors."
-              }
-            }
-          ]
+          "@type": "Question",
+          "name": "At what age should I get my first colonoscopy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The U.S. Preventive Services Task Force (USPSTF) recommends that adults at average risk begin colon cancer screening at age 45 and continue through age 75. People with higher risk factors (family history of colon cancer, inflammatory bowel disease, certain genetic syndromes) may need to start screening earlier. Talk to your doctor about your personal risk factors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is colonoscopy painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients experience little to no pain during a colonoscopy because sedation is used. You'll receive IV medication that makes you drowsy and relaxed; many patients don't remember the procedure at all. Some patients experience mild cramping or bloating afterward from the air used to inflate the colon, which typically resolves within a few hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a colonoscopy take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The colonoscopy procedure itself typically takes 20-60 minutes, depending on whether polyps need to be removed. However, plan for 2-3 hours total at the facility to allow time for check-in, preparation, the procedure, and recovery from sedation. You'll need someone to drive you home afterward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the hardest part of colonoscopy prep?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients find the bowel preparation to be the most challenging part. This involves drinking a large volume of laxative solution (typically 2-4 liters) and following a clear liquid diet the day before. The prep causes frequent bowel movements to empty the colon completely. Tips to make it easier: chill the solution, use a straw, suck on hard candy between sips, and stay near a bathroom."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often do I need a colonoscopy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For average-risk individuals with normal results, the recommended interval is every 10 years. If polyps are found, the interval may be shortened to 3-5 years depending on the number, size, and type of polyps. People with inflammatory bowel disease or certain genetic conditions may need screening every 1-2 years. Your doctor will recommend a specific interval based on your results and risk factors."
+          }
         }
       ]
     }
+  ]
+}
     </script>
     
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
@@ -1339,6 +1357,32 @@
             <p><strong>Last reviewed:</strong> February 2026 by thrive.md Clinical Advisory Team</p>
             <p style="margin-top: 8px;">Information based on USPSTF, American Cancer Society, and ACG guidelines.</p>
         </div>
+        <section class="section" id="faq">
+            <div class="section-label" style="font-size: 12px; font-weight: 600; color: var(--accent, #0d9488); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">FAQ</div>
+            <h2>Frequently asked questions</h2>
+            <div style="margin-top: 20px;">
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">What is a colonoscopy?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">A colonoscopy is a procedure that allows a doctor to examine the entire lining of your colon (large intestine) and rectum using a long, flexible tube with a camera called a colonoscope. It is the gold standard for colon cancer screening and can both detect and prevent cancer by finding and removing precancerous polyps during the same procedure.</p>
+                </div>
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">At what age should I get my first colonoscopy?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">The U.S. Preventive Services Task Force (USPSTF) recommends that adults at average risk begin colon cancer screening at age 45 and continue through age 75. People with higher risk factors (family history of colon cancer, inflammatory bowel disease, certain genetic syndromes) may need to start screening earlier. Talk to your doctor about your personal risk factors.</p>
+                </div>
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">How long does a colonoscopy take?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">The colonoscopy procedure itself typically takes 20-60 minutes, depending on whether polyps need to be removed. However, plan for 2-3 hours total at the facility to allow time for check-in, preparation, the procedure, and recovery from sedation. You&#x27;ll need someone to drive you home afterward.</p>
+                </div>
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">What is the hardest part of colonoscopy prep?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">Most patients find the bowel preparation to be the most challenging part. This involves drinking a large volume of laxative solution (typically 2-4 liters) and following a clear liquid diet the day before. The prep causes frequent bowel movements to empty the colon completely. Tips to make it easier: chill the solution, use a straw, suck on hard candy between sips, and stay near a bathroom.</p>
+                </div>
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">How often do I need a colonoscopy?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">For average-risk individuals with normal results, the recommended interval is every 10 years. If polyps are found, the interval may be shortened to 3-5 years depending on the number, size, and type of polyps. People with inflammatory bowel disease or certain genetic conditions may need screening every 1-2 years. Your doctor will recommend a specific interval based on your results and risk factors.</p>
+                </div>
+            </div>
+        </section>
 
         <section class="section" id="related">
             <div class="section-label" style="font-size: 12px; font-weight: 600; color: var(--accent, #0d9488); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Related Topics</div>
